@@ -1,3 +1,26 @@
+# v1.9.4 — Performance Enhancements and User Experience Improvements
+
+## What's New
+- **Optimized A2A Trigger Logic**: Improved efficiency in A2A trigger processes alongside refined deployment workflows on Vercel.
+- **Enhanced Sandbox Experience**: Introduced real-time streaming of executed code output to the Code panel, improved timeout handling with configurable limits, and added retry hints for better user guidance.
+- **Streamlined Onboarding and Deployment**: Merged onboarding enhancements with deployment updates, alongside a new global SSO toggle, allowing custom domain redirects.
+- **Atlas Redesign Phases**: Significant updates to the Atlas design system, including screen rewiring, new illustrations, and layout optimizations for better user navigation.
+
+## Bug Fixes
+- **Chat History Pagination**: Implemented cursor-based pagination to improve chat history navigation.
+- **Notification Bar Behavior**: Fixed issues with the sticky notification bar to enhance visibility during scrolling.
+- **Live Code Streaming**: Hardened the live code streaming and file delivery processes to prevent errors related to message injections.
+- **Other Fixes**: Resolved multiple issues, including import path corrections, foreign key constraints, and removed redundant configurations in the Slack setup.
+
+## Upgrade Guide
+- There are no significant upgrade or migration risks associated with this release; however, users are encouraged to review changes in the sandbox configurations for timeout settings.
+
+## Notes
+- Documentation has been updated to include new features and enhancements, especially regarding the onboarding process and Atlas design adjustments.
+- Links to demos and cloud solutions have been added to the README for improved accessibility.
+
+---
+
 # v1.9.2 — Workspace Governance, Tool UX & Token Cache Accounting
 
 ## What's New
